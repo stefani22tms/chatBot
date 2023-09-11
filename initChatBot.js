@@ -23,9 +23,8 @@ function init(url, greetMessage, inactiveMessage) {
           chatContainer.setAttribute('style', 'position: fixed; bottom: 50px; right: 50px; width: 380px; height: 620px; z-index: 99')
         }
       }, true);
-    }
 }
-    
+
 /* initialize chatBot */
 function initChatBot(url, greetMessage, inactiveMessage) {
 	window.onload = () => {
